@@ -14,8 +14,6 @@ export default function Home() {
             <Promos />
             <FeaturedMenu />
             <Missions />
-            <hr className="border-2 border-accentRed w-full" />
-            <Footer />
         </main>
   )
 }

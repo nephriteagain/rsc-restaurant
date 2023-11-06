@@ -22,6 +22,7 @@ module.exports = {
         primaryRed: '#A73121',
         accentRed: '#952323',
         secondaryLight: '#DAD4B5',
+        buttonOrange: '#FF9209',
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

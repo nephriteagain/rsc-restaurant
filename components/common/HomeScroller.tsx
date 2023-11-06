@@ -23,7 +23,7 @@ export default function HomeScroller() {
     }, [])
 
     return (
-        <button className={`${scrollVal === 0 ? 'hidden' : 'block'} fixed bottom-6 right-6 z-[100] -rotate-90 w-fit p-3 rounded-full bg-accentRed text-2xl text-white cursor-pointer btn-hover shadow-sm drop-shadow-sm`}
+        <button className={`${scrollVal === 0 ? 'hidden' : 'block'} fixed bottom-6 right-6 z-[100] -rotate-90 w-fit p-3 rounded-full bg-buttonOrange text-2xl text-white cursor-pointer btn-hover shadow-sm drop-shadow-sm`}
             onClick={scrollToTop}            
         >
             <MdArrowForwardIos />

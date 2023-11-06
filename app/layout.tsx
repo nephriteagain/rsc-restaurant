@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
-import { PiBugDroid } from 'react-icons/pi'
 import Link from 'next/link'
 
 import Logo from '@/components/common/Logo'
 import HomeScroller from '@/components/common/HomeScroller'
+import Footer from '@/components/common/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,6 +40,8 @@ export default function RootLayout({
                 </nav>
                 {children}
                 <HomeScroller />
+                <hr className="border-2 border-accentRed w-full" />
+                <Footer />
             </body>
         </html>
   )

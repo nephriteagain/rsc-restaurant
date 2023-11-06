@@ -1,5 +1,5 @@
 import Logo from "./Logo"
-import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs'
+import { BsInstagram, BsTwitter } from 'react-icons/bs'
 import { FaViber, FaFacebookF } from 'react-icons/fa'
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
                 <Logo />
             </div>
             <div className="flex flex-row flex-wrap justify-center gap-4">
-                <div className="flex flex-col gap-4 w-[250px]">
+                <div className="flex flex-col gap-4 w-[220px]">
                     <p className="font-semibold">Follow Us</p>
                     <div className="flex flex-row gap-2 justify-between">
                         <span className="p-2 bg-accentRed rounded-full text-white cursor-pointer">
@@ -26,19 +26,19 @@ export default function Footer() {
                         </span>
                     </div>
                 </div>
-                <div className="flex flex-col gap-2 text-sm w-[250px]">
+                <div className="flex flex-col gap-2 text-sm w-[220px]">
                     <p className="font-semibold text-base">How To Order</p>
                     <p>View Menu</p>
                     <p>Delivery</p>
                     <p>Multi-Delivery</p>
                     <p>Locations</p>
                 </div>
-                <div className="flex flex-col gap-2 text-sm w-[250px]">
+                <div className="flex flex-col gap-2 text-sm w-[220px]">
                     <p className="font-semibold text-base">Promotions</p>
                     <p>Promos</p>
                     <p>Gift Cards</p>
                 </div>
-                <div className="flex flex-col gap-2 text-sm w-[250px]">
+                <div className="flex flex-col gap-2 text-sm w-[220px]">
                     <p className="font-semibold text-base">About Us</p>
                     <p>About CheeryBug</p>
                     <p>Safety</p>
@@ -49,7 +49,7 @@ export default function Footer() {
                     <p>Contact Us</p>
                     <p>Rate Our Stores</p>
                 </div>
-                <div className="flex flex-col gap-2 text-sm w-[250px]">
+                <div className="flex flex-col gap-2 text-sm w-[220px]">
                     <p className="font-semibold text-base">About Our Website</p>
                     <p>Privacy Policy</p>
                     <p>Terms & Conditions</p>

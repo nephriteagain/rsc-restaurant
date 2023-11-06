@@ -15,7 +15,7 @@ const missions = [
 
 export default function Missions() {
     return (
-        <div className="relative px-4 py-8 gap-4 flex flex-row flex-wrap items-center justify-between">
+        <div className="relative px-4 py-8 gap-4 flex flex-row flex-wrap items-center justify-center">
             {missions.map(m => {
                 const { id, header, text } = m
                 return (

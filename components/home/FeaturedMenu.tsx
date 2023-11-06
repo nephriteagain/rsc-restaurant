@@ -37,7 +37,7 @@ export default function FeaturedMenu() {
                 })}
             </div>
             <Link href={'/menu'} className="w-fit">
-                <p className="text-2xl text-white font-semibold bg-accentRed px-2 py-1 btn-hover rounded-md shadow-md drop-shadow-md">
+                <p className="text-2xl text-white font-semibold bg-buttonOrange px-2 py-1 btn-hover rounded-md shadow-md drop-shadow-md">
                     View Menu
                 </p>                
             </Link>

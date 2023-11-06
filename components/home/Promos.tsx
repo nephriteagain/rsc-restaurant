@@ -26,7 +26,7 @@ export default function Promos() {
             })}
             </div>
             <Link href={'/promos'} className="w-fit">
-                <p className="text-2xl text-white font-semibold bg-accentRed px-2 py-1 btn-hover rounded-md shadow-md drop-shadow-md">See All Promos</p>
+                <p className="text-2xl text-white font-semibold bg-buttonOrange px-2 py-1 btn-hover rounded-md shadow-md drop-shadow-md">See All Promos</p>
             </Link>
         </div>
     )   
