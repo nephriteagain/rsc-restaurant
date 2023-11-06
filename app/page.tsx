@@ -3,6 +3,7 @@ import Banner from "@/components/home/Banner"
 import Promos from "@/components/home/Promos"
 import FeaturedMenu from "@/components/home/FeaturedMenu"
 import Missions from "@/components/home/Missions"
+import Footer from "@/components/common/Footer"
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <FeaturedMenu />
             <Missions />
             <hr className="border-2 border-accentRed w-full" />
+            <Footer />
         </main>
   )
 }

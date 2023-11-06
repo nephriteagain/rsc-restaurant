@@ -5,6 +5,9 @@ import './globals.css'
 import { PiBugDroid } from 'react-icons/pi'
 import Link from 'next/link'
 
+import Logo from '@/components/common/Logo'
+import HomeScroller from '@/components/common/HomeScroller'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -21,14 +24,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={`${inter.className} bg-bgLight`}>
                 <nav className='w-full bg-primaryRed text-white flex items-center gap-6 px-6 py-4 text-xl font-semibold'>
-                    <Link className='grow font-bold' href={'/'}>
-                        <header className="flex flex-row gap-1 items-center text-4xl">
-                            <span>
-                            CheeryBug
-                            </span>
-                            <PiBugDroid />
-                    </header>
-                    </Link>
+                    <Logo />
                     <Link href={'/delivery'}>
                         Delivery
                     </Link>
@@ -43,6 +39,7 @@ export default function RootLayout({
                     </Link>
                 </nav>
                 {children}
+                <HomeScroller />
             </body>
         </html>
   )
