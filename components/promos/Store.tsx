@@ -1,13 +1,13 @@
 "use client"
 
-import { FaPlus } from 'react-icons/fa'
-import { useState } from "react";
+import { useState } from "react"
+import { FaPlus } from "react-icons/fa"
 
-export default function Question({question, answer}: {question:string; answer:string}) {
+export default function Store({store}: {store:string}) {
     const [ isOpen, setIsOpen ] = useState(false)
 
     return (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 w-full">
             <div
                 onClick={() => setIsOpen(o => !o)}
                 className={`${!isOpen ? 'bg-white text-black': 'bg-primaryRed text-white'}
@@ -15,13 +15,13 @@ export default function Question({question, answer}: {question:string; answer:st
                 `}
             >
                 <p>
-                    {question}
+                    Participating Stores
                 </p>
                 <FaPlus className={`${!isOpen ? 'text-primaryRed' : 'text-white'}`} />
             </div>
             {
                 isOpen &&
-                <div className="p-6 text-lg bg-white shadow-lg drop-shadow-lg rounded-3xl">{answer}</div>
+                <div className="p-6 text-lg bg-white shadow-lg drop-shadow-lg rounded-3xl animate-flip-down">{store}</div>
             }
         </div>
     )

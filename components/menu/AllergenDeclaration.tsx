@@ -20,7 +20,7 @@ export default function AllergenDeclaration() {
             </div>
             {
                 isOpen &&
-                <div className="flex flex-col gap-4 p-8 text-base bg-white shadow-lg drop-shadow-lg rounded-3xl">
+                <div className="flex flex-col gap-4 p-8 text-base bg-white shadow-lg drop-hadow-lg rounded-3xl animate-flip-down">
                     <p>
                         Jollibee’s manufacturing and kitchen operations may involve the use of shared cooking equipment, preparation areas, tools, and utensils that come in contact with or contains allergens. As such, we cannot guarantee that a food ingredient or food product is free from a specific allergen, since possible allergen cross-contact between different products could occur.
                     </p>

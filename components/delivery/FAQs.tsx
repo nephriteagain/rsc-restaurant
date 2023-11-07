@@ -1,4 +1,4 @@
-import Question from "./Question"
+import Question from "../common/Question"
 
 const q = [
     {
