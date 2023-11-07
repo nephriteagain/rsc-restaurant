@@ -2,13 +2,13 @@ import Link from "next/link"
 
 const promos = [
     {
-        id: 0,
+        id: 'jollibee-chickenjoy-christmas-perfect-pairs',
     },
     {
-        id: 1
+        id: 'november-choose-your-welcome-gift'
     },
     {
-        id: 2
+        id: 'november-app-exclusive-deal'
     }
 ]
 
@@ -25,16 +25,16 @@ export default function Promos() {
                 )
             })}
             </div>
-            <Link href={'/promos'} className="w-fit">
+            <Link href={'/promotions'} className="w-fit">
                 <p className="text-2xl text-white font-semibold bg-buttonOrange px-2 py-1 btn-hover rounded-md shadow-md drop-shadow-md">See All Promos</p>
             </Link>
         </div>
     )   
 }
 
-function Promo({id}: {id: number}) {
+function Promo({id}: {id: string}) {
     return (
-            <Link href={`/promos/${id}`}>
+            <Link href={`/promotions/${id}`}>
                 <div className="w-[350px] min-w-[280px] aspect-[3/4] rounded-2xl bg-secondaryLight shadow-lg drop-shadow-lg"> 
                 </div>
             </Link>
