@@ -3,11 +3,11 @@ import { allergen } from "@/lib/data/allergen"
 import { BsCheckCircleFill, BsCheckCircle } from 'react-icons/bs'
 
 function isAllergic(item:string, yes:string[]) : boolean {
-    return yes.some(y => item === y)
+    return yes.some(y => item === y.trim())
 }
 
 function isMaybeAllergic(item: string, maybe:string[]) : boolean {
-    return maybe.some(m => item === m)
+    return maybe.some(m => item === m.trim())
 }
 
 

@@ -10,9 +10,12 @@ export default function MenuList({id}: {id:string}) {
     const name = links.find(l => l.id === id) 
 
     return (
-        <div className="flex flex-col gap-8 items-center py-4">
-            <h2 className="text-center font-bold text-4xl">{name?.name ?? 'Menu'}</h2>
-            <div className="flex flex-row flex-wrap justify-center gap-8">
+        <div className="flex flex-col gap-8 items-center py-4 w-full">
+            <div>
+                <h2 className="text-center font-bold text-4xl">{name?.name ?? 'Menu'}</h2>
+                {Boolean(name?.desc) && <h1>{name?.desc}</h1>}
+            </div>
+            <div className="w-full flex flex-row flex-wrap justify-center gap-8">
                 {menuList.map(({name,desc}) => {
                     return (
                         <MenuItem key={name} name={name} desc={desc} />
