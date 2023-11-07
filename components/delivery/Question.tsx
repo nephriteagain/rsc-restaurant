@@ -11,7 +11,7 @@ export default function Question({question, answer}: {question:string; answer:st
             <div
                 onClick={() => setIsOpen(o => !o)}
                 className={`${!isOpen ? 'bg-white text-black': 'bg-primaryRed text-white'}
-                    p-6 font-semibold text-xl flex flex-row justify-between items-center shadow-lg drop-shadow-lg rounded-3xl
+                    p-6 font-semibold text-xl flex flex-row justify-between items-center shadow-lg drop-shadow-lg rounded-3xl cursor-pointer
                 `}
             >
                 <p>
