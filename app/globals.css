@@ -69,6 +69,7 @@
 @layer base {
   html {
     @apply text-sm;
+    width: 100vw;
   }
   * {
     @apply border-border;

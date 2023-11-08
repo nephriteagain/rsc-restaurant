@@ -3,7 +3,7 @@
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { AiOutlineClose } from 'react-icons/ai'
 
-import { useState, useEffect,  useRef, ReactNode } from "react"
+import { useState, useEffect,  ReactNode } from "react"
 
 import NavDropDown from './NavDropDown'
 
@@ -27,8 +27,8 @@ export default function Navbar({children}: {children: ReactNode}) {
 
 
     return (
-        <div className={`${scrollVal > 100 ? 'fixed top-0 left-0 z-[999999] animate-flip-down' : ''} w-full`}>
-            <nav  className={`relative w-full bg-primaryRed text-white flex items-center px-6 py-4 text-xl font-semibold
+        <div className={`${scrollVal > 100 ? 'fixed top-0 left-0 z-[999999] animate-flip-down' : ''} w-screen`}>
+            <nav  className={`relative w-screen bg-primaryRed text-white flex items-center px-6 py-4 text-xl font-semibold
                 `}>        
                 {children}
                 { 

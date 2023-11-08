@@ -4,18 +4,20 @@ import { links } from "@/lib/data/menu";
 
 export default function MenuNavigation() {
     return (
-        <nav className="flex flex-row flex-wrap md:flex-col bg-secondaryLight shadow-md">
-            {links.map(({id, name}) => {
-
-                return (
-                    <MenuItem 
+        <div className="relative">
+            <nav className="flex flex-row flex-wrap md:flex-col md:h-screen md:overflow-y-scroll md:flex-nowrap bg-secondaryLight shadow-md md:fixed md:left-0">
+                {links.map(({id, name}) => {
+                    
+                    return (
+                        <MenuItem 
                         key={id}
                         id={id}
                         name={name}
-                    />
-                )
-            })}
-        </nav>
+                        />
+                        )
+                    })}
+            </nav>
+        </div>
     )
 }
 

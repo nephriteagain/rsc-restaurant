@@ -7,6 +7,7 @@ import HomeScroller from '@/components/common/HomeScroller'
 import Footer from '@/components/common/Footer'
 import Navbar from '@/components/common/Navbar'
 import Navitems from '@/components/common/NavItems'
+import FooterPadder from '@/components/common/FooterPadder'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,7 +31,9 @@ export default function RootLayout({
                 {children}
                 <HomeScroller />
                 <hr className="border-2 border-accentRed w-full" />
-                <Footer />
+                <FooterPadder>
+                    <Footer />
+                </FooterPadder>
             </body>
         </html>
   )
