@@ -15,14 +15,23 @@ export default function Guides() {
                     </p>
                 </div>                
                 <div className='flex flex-row items-center gap-2'>
-                    <Link href={'https://www.apple.com/ph/app-store/'} className='w-[140px] h-fit flex flex-row gap-1 p-1 bg-black text-white items-center rounded-sm shadow-sm drop-shadow-sm'>
+                    <Link 
+                        href={'https://www.apple.com/ph/app-store/'} 
+                        className='w-[140px] h-fit flex flex-row gap-1 p-1 bg-black text-white items-center rounded-sm shadow-sm drop-shadow-sm'
+                        target='_blank'
+                    >
                         <BsApple className="text-xl" />
                         <div>
                             <p className='text-[10px]'>Download on the</p>
                             <p className='text-lg'>App Store</p>
                         </div>
                     </Link>
-                    <Link href={'https://play.google.com/store/games?hl=en&gl=US&pli=1'} className='w-[140px] h-fit flex flex-row gap-1 p-1 bg-black text-white items-center rounded-sm shadow-sm drop-shadow-sm'>
+                    <Link 
+                        href={'https://play.google.com/store/games?hl=en&gl=US&pli=1'} 
+                        className='w-[140px] h-fit flex flex-row gap-1 p-1 bg-black text-white items-center rounded-sm shadow-sm drop-shadow-sm'
+                        target='_blank'
+                    >
+
                         <BsGooglePlay className="text-xl" />
                         <div>
                             <p className='text-[10px]'>GET IT ON</p>

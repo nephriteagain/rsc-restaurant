@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ReactNode, Dispatch, SetStateAction } from "react"
+import {  Dispatch, SetStateAction } from "react"
 
 import { useEffect, useState } from "react";
 import { usePathname  } from "next/navigation";
@@ -16,7 +16,7 @@ export default function NavDropDown({setIsDropdownShow}: {setIsDropdownShow: Dis
     }, [pathname])
 
     return (
-        <div className="absolute top-full  bg-white text-black left-0 z-[99999] w-full flex flex-col items-center py-28 gap-12 font-bold text-4xl animate-flip-down"
+        <div className="bg-white text-black left-0 z-[99999] w-full flex flex-col items-center py-28 gap-12 font-bold text-4xl animate-flip-down"
         >
             <Link href={'/delivery'} className="hover:bg-neutral-100 tall-200 p-4 rounded-lg">
                 Delivery
