@@ -38,7 +38,7 @@ export default function AllergenTable({id}:{id:string}) {
     })
 
     return (
-        <table className="min-w-[600px] overflow-x-scroll w-full">
+        <table className="w-[90vw] sm:w-[500px] md:w-[600px]">
             <thead>
                 <tr className="bg-bgLight">
                     <th className="border border-gray-600 w-[9.09%] p-1">Menu Item</th>

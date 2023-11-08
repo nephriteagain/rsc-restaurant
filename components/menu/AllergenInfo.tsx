@@ -24,7 +24,7 @@ export default function ({id}: {id:string}) {
             </div>
             {
                 isOpen &&
-                <div className="bg-white p-8 rounded-xl shadow-xl animate-flip-down">
+                <div className="overflow-x-scroll bg-white p-8 rounded-xl shadow-xl animate-flip-down">
                     <AllergenTable id={id} />
                     <div className="py-8 flex flex-col gap-4">
                         <p className="font-semibold px-4">Legend</p>

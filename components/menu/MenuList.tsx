@@ -28,7 +28,7 @@ export default function MenuList({id}: {id:string}) {
 
 function MenuItem({name, desc}: {name:string; desc:string}) {
     return (
-        <div className="w-[270px] p-6 flex flex-col gap-4  items-center rounded-lg border-4 border-buttonOrange">
+        <div className="w-[300px] sm:w-[270px] p-6 flex flex-col gap-4  items-center rounded-lg border-4 border-buttonOrange">
             <div className="relative w-[150px] bg-secondaryLight aspect-square shadow-md">
                 <FaCircleInfo className="absolute -right-2 -top-2 text-xl fill-accentRed" />
             </div>

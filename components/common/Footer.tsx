@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="flex flex-row py-4">
                 <Logo />
             </div>
-            <div className="flex flex-row flex-wrap justify-center gap-4">
+            <div className="flex flex-row flex-wrap justify-between p-8 gap-8">
                 <div className="flex flex-col gap-4 w-[220px]">
                     <p className="font-semibold">Follow Us</p>
                     <div className="flex flex-row gap-2 justify-between">

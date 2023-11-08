@@ -5,18 +5,18 @@ export default function Navitems() {
     return (
         <>
             <Logo />
-            <Link href={'/delivery'}>
-                Delivery
-            </Link>
-            <Link href={'/locations'}>
-                Locations
-            </Link>
-            <Link href={'/menu'}>
-                Menu
-            </Link>
-            <Link href={'/promotions'}>
-                Promotions
-            </Link>
+                <div className="hidden md:flex flex-row items-center gap-6 ">
+
+                <Link href={'/delivery'}>
+                    Delivery
+                </Link>
+                <Link href={'/menu'}>
+                    Menu
+                </Link>
+                <Link href={'/promotions'}>
+                    Promotions
+                </Link>
+            </div>
         </>
     )
 }

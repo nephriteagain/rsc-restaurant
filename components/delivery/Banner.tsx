@@ -9,7 +9,7 @@ export default function Banner() {
             </div>
             <div className="px-6 py-12 flex flex-row flex-wrap justify-center gap-20">
                 <div className="flex items-center justify-center">
-                    <div className="relative w-[400px] aspect-[2/1]">
+                    <div className="relative w-[300px] sm:w-[400px] aspect-[2/1]">
                         <div className="z-10 absolute top-0 left-0 w-10/12 aspect-[2/1] shadow-md bg-buttonOrange"></div>
                         <div className="absolute bottom-0 right-0 w-10/12 aspect-[2/1] rounded-lg shadow-md bg-primaryRed"></div>
                     </div>

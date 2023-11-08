@@ -28,8 +28,8 @@ export default function PromoList() {
 
 function Promo({title,link}:{title: string; link:string}) {
     return (
-        <div className="flex flex-col items-center w-[450px] gap-4">
-            <div className="w-[400px] aspect-[1618/1000] rounded-xl shadow-lg bg-secondaryLight" />
+        <div className="flex flex-col items-center  w-[300px] sm:w-[450px] gap-4">
+            <div className="w-[300px] sm:w-[400px] aspect-[1618/1000] rounded-xl shadow-lg bg-secondaryLight" />
             <h3 className="text-2xl font-bold">
                 {title}
             </h3>
