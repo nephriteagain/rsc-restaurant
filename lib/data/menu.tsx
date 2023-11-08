@@ -8,22 +8,22 @@ export const links = [
     {
         id: 'new-products',
         name: 'New Products',
-        desc: 'Jollibee’s newest products that you surely would want to try! Discover your next new Jollibee favorite.'
+        desc: 'Cheerybug’s newest products that you surely would want to try! Discover your next new Cheerybug favorite.'
     },
     {
         id: 'family-meals',
         name: 'Family Meals',
-        desc: 'Your favorite Jollibee bundles best shared with family. Make meal time more exciting with Family Meals.'
+        desc: 'Your favorite Cheerybug bundles best shared with family. Make meal time more exciting with Family Meals.'
     },
     {
         id: 'breakfast',
         name: 'Breakfast',
-        desc: 'Start your day right with the filling and delicious Jollibee Breakfast Joys.'
+        desc: 'Start your day right with the filling and delicious Cheerybug Breakfast Joys.'
     },
     {
-        id: 'cheeryjoy',
-        name: 'CheeryJoy',
-        desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside.'
+        id: 'chickencheer',
+        name: 'Chickencheer',
+        desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer that is crispy on the outside, tender and juicy on the inside.'
     },
     {
         id: 'burgers',
@@ -33,17 +33,17 @@ export const links = [
     {
         id: 'cheery-spaghetti',
         name: 'Cheery Spaghetti',
-        desc: 'The meatiest, cheesiest, and sweet-sarap Jolly Spaghetti! Freshly prepared noodles topped with Jollibee’s signature meaty spaghetti sauce, hotdog chunks, and creamy grated cheese.'
+        desc: 'The meatiest, cheesiest, and sweet-sarap Cheery Spaghetti! Freshly prepared noodles topped with Cheerybug’s signature meaty spaghetti sauce, hotdog chunks, and creamy grated cheese.'
     },
     {
         id: 'burger-steak',
         name: 'Burger Steak',
-        desc: 'Your favorite Beefy-Saucy Linamnam Ulam na with Jollibee Burger Steak.'
+        desc: 'Your favorite Beefy-Saucy Linamnam Ulam na with Cheerybug Burger Steak.'
     },
     {
         id: 'super-meals',
         name: 'Super Meals',
-        desc: 'Your Jollibee favorites in one Supermeal.'
+        desc: 'Your Cheerybug favorites in one Supermeal.'
     },
     {
         id: 'chicken-sandwich',
@@ -53,113 +53,113 @@ export const links = [
     {
         id: 'cheery-hotdog-and-pies',
         name: 'Cheery Hotdog & Pies',
-        desc: 'Your favorite Todo Toppings, Todo Sarap Jolly Hotdog & Crispy-Creamy Tuna Pie.'
+        desc: 'Your favorite Todo Toppings, Todo Sarap Cheery Hotdog & Crispy-Creamy Tuna Pie.'
     },
     {
         id:'palabok',
         name:'Palabok',
-        desc: 'A classic favorite-premium bihon noodles topped with Jollibee’s saucy-tasty signature sauce and loaded with delicious toppings!'
+        desc: 'A classic favorite-premium bihon noodles topped with Cheerybug’s saucy-tasty signature sauce and loaded with delicious toppings!'
     },
     {
         id: 'fries-and-sides',
         name: 'Fries & Sides',
-        desc: 'Flavorful sides to complement your all-time favorite Jollibee meals.',
+        desc: 'Flavorful sides to complement your all-time favorite Cheerybug meals.',
     },
     {
         id: 'desserts',
         name: 'Desserts',
-        desc: 'Satisfy your sweet cravings with Jollibee Sweet Pies and Jollibee Sundaes.'
+        desc: 'Satisfy your sweet cravings with Cheerybug Sweet Pies and Cheerybug Sundaes.'
     },
     {
         id: 'beverages',
         name: 'Beverages',
-        desc: 'Quench your thirst with these refreshing drink options best paired with your Jollibee meals.'
+        desc: 'Quench your thirst with these refreshing drink options best paired with your Cheerybug meals.'
     },
     {
         id: 'cheery-kiddie-meal',
         name: 'Cheery Kiddie Meal',
-        desc: 'Bring joy to your kid’s playtime with this meal set with toys.'
+        desc: 'Bring cheer to your kid’s playtime with this meal set with toys.'
     }
 ]
 
 export const menus : Record<string,{name:string;desc:string}[]> = {
     "best-sellers": [
         {
-            name: '6 - pc. Chickenjoy Bucket w/ Jolly Spaghetti Family',
-            desc: 'Jollibee Meal Time Bundle brings you your favorite crispylicious, juicylicious Chickenjoy with the meatiest, cheesiest, sweet-sarap Jolly Spaghetti!',
+            name: '6 - pc. Chickencheer Bucket w/ Cheery Spaghetti Family',
+            desc: 'Cheerybug Meal Time Bundle brings you your favorite crispylicious, juicylicious Chickencheer with the meatiest, cheesiest, sweet-sarap Cheery Spaghetti!',
         },
         {
-            name: '8 - pc. Chickenjoy Bucket w/ Jolly Spaghetti Family',
-            desc: 'ollibee Meal Time Bundle brings you your favorite crispylicious, juicylicious Chickenjoy with the meatiest, cheesiest, sweet-sarap Jolly Spaghetti!'
+            name: '8 - pc. Chickencheer Bucket w/ Cheery Spaghetti Family',
+            desc: 'ollibee Meal Time Bundle brings you your favorite crispylicious, juicylicious Chickencheer with the meatiest, cheesiest, sweet-sarap Cheery Spaghetti!'
         },
         {
-            name: '6 - pc. Chickenjoy w/ Palabok Family Pan',
-            desc: '6-pcs. of the Philippines’ best-tasting crispylicious, juicylicious Chickenjoy paired with your classic favorite saucy-sarap Palabok Family Pan with tasty toppings!'
+            name: '6 - pc. Chickencheer w/ Palabok Family Pan',
+            desc: '6-pcs. of the Philippines’ best-tasting crispylicious, juicylicious Chickencheer paired with your classic favorite saucy-sarap Palabok Family Pan with tasty toppings!'
         },
         {
-            name: '8 - pc. Chickenjoy w/ Palabok Family Pan',
-            desc: '8-pcs. of the Philippines’ best-tasting crispylicious, juicylicious Chickenjoy paired with your classic favorite saucy-sarap Palabok Family Pan with tasty toppings!'
+            name: '8 - pc. Chickencheer w/ Palabok Family Pan',
+            desc: '8-pcs. of the Philippines’ best-tasting crispylicious, juicylicious Chickencheer paired with your classic favorite saucy-sarap Palabok Family Pan with tasty toppings!'
         },
         {
-            name: '6 - pc. Chickenjoy Bucket',
-            desc: 'A bucket of your favorite crispylicious, juicylicious Chickenjoy!',
+            name: '6 - pc. Chickencheer Bucket',
+            desc: 'A bucket of your favorite crispylicious, juicylicious Chickencheer!',
 
         },
         {
-            name: '8 - pc. Chickenjoy Bucket',
-            desc: 'A bucket of your favorite crispylicious, juicylicious Chickenjoy!'
+            name: '8 - pc. Chickencheer Bucket',
+            desc: 'A bucket of your favorite crispylicious, juicylicious Chickencheer!'
         },
         {
-            name: '1 - pc. Chickenjoy w/ Burger Steak & Half Jolly Spaghetti Super Meal',
-            desc: 'Your Jollibee favorites in one Supermeal: 1pc Chickenjoy with Burger Steak and Half Jolly Spaghetti, with rice and drink.'
+            name: '1 - pc. Chickencheer w/ Burger Steak & Half Cheery Spaghetti Super Meal',
+            desc: 'Your Cheerybug favorites in one Supermeal: 1pc Chickencheer with Burger Steak and Half Cheery Spaghetti, with rice and drink.'
         },
         {
-            name: '1 - pc. Chickenjoy w/ Jolly Spaghetti',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy paired with the cheesiest, meatiest, sweet-sarap Jolly Spaghetti.'
+            name: '1 - pc. Chickencheer w/ Cheery Spaghetti',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer paired with the cheesiest, meatiest, sweet-sarap Cheery Spaghetti.'
         },
         {
-            name: '1 - pc. Chickenjoy Solo',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside.'
+            name: '1 - pc. Chickencheer Solo',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer that is crispy on the outside, tender and juicy on the inside.'
         },
         {
-            name: '2 - pc. Chickenjoy Solo',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside.'
+            name: '2 - pc. Chickencheer Solo',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer that is crispy on the outside, tender and juicy on the inside.'
         },
         {
-            name: 'Chickenjoy Bucket w/ Rice, Jolly Spaghetti, & Drinks',
-            desc: 'A bucket of the Philippines’ best-tasting crispylicious, juicylicious Chickenjoy with Jolly Spaghetti, rice and drinks.'
+            name: 'Chickencheer Bucket w/ Rice, Cheery Spaghetti, & Drinks',
+            desc: 'A bucket of the Philippines’ best-tasting crispylicious, juicylicious Chickencheer with Cheery Spaghetti, rice and drinks.'
         },
         {
-            name: 'Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal',
-            desc: 'Your Jollibee favorites in one Supermeal: Yumburger with Half Jolly Spaghetti, with fries and drink.'
+            name: 'Cheerburger, Half Cheery Spaghetti & Reg. Fries Super Meal',
+            desc: 'Your Cheerybug favorites in one Supermeal: Cheerburger with Half Cheery Spaghetti, with fries and drink.'
         },
         {
-            name: 'Yumburger',
-            desc: 'Your favorite beefiest langhap-sarap Yumburger, with beefy patty and our special dressing in between soft buns'
+            name: 'Cheerburger',
+            desc: 'Your favorite beefiest langhap-sarap Cheerburger, with beefy patty and our special dressing in between soft buns'
         },
         {
-            name: 'Cheesy Yumburger',
-            desc: 'Your favorite beefiest langhap-sarap Yumburger with creamy cheese.'
+            name: 'Cheesy Cheerburger',
+            desc: 'Your favorite beefiest langhap-sarap Cheerburger with creamy cheese.'
         },
         {
             name: 'Burger Bundle',
             desc: '3 Burgers, 3 Regular Fries, and 3 Regular Drinks.'
         },
         {
-            name: 'Yumburger Family Savers',
-            desc: 'Jollibee Yumburger Family Savers has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Yumburger and Jolly Crispy Fries. Good for three.'
+            name: 'Cheerburger Family Savers',
+            desc: 'Cheerybug Cheerburger Family Savers has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Cheerburger and Cheery Crispy Fries. Good for three.'
         },
         {
-            name: 'Jolly Spaghetti w/ Yumburger',
-            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Jollibee’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese, paired with your favorite beefiest langhap-sarap Yumburger, with beefy patty and our special dressing in between soft buns.'
+            name: 'Cheery Spaghetti w/ Cheerburger',
+            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Cheerybug’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese, paired with your favorite beefiest langhap-sarap Cheerburger, with beefy patty and our special dressing in between soft buns.'
         },
         {
-            name: 'Jolly Spaghetti w/ Fries & Drink',
-            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Jollibee’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese! Served with drink.'
+            name: 'Cheery Spaghetti w/ Fries & Drink',
+            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Cheerybug’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese! Served with drink.'
         },
         {
-            name: 'Jolly Spaghetti & Palabok Family Pan',
-            desc: 'Jollibee Family Savers Snack Time Bundle has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Yumburger and Jolly Crispy Fries. Good for three.'
+            name: 'Cheery Spaghetti & Palabok Family Pan',
+            desc: 'Cheerybug Family Savers Snack Time Bundle has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Cheerburger and Cheery Crispy Fries. Good for three.'
         }
     ],
     "new-products": [
@@ -172,7 +172,7 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
             desc: 'Large. Crunchy. Juicy Thigh Fillet.'
         },
         {
-            name: '4 - pc. Chickenjoy Family Box',
+            name: '4 - pc. Chickencheer Family Box',
             desc: 'Four pieces of fried chicken glazed with a perfect blend of sweet and spicy flavors. Good for sharing.'
         },
         {
@@ -186,8 +186,8 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
     ],
     "family-meals": [
         {
-            name: '4 - pc. Chickenjoy Family Box Solo',
-            desc: 'Four-piece Family Box of the Philippines’ best-tasting crispylicious, juicylicious Chickenjoy.'
+            name: '4 - pc. Chickencheer Family Box Solo',
+            desc: 'Four-piece Family Box of the Philippines’ best-tasting crispylicious, juicylicious Chickencheer.'
         },
         {
             name: 'Burger Steak Family Pan',
@@ -198,39 +198,39 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
             desc: '3 Burgers, 3 Regular Fries, and 3 Regular Drinks.'
         },
         {
-            name: 'Yumburger Family Savers',
-            desc: 'Jollibee Yumburger Family Savers has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Yumburger and Jolly Crispy Fries. Good for three.'
+            name: 'Cheerburger Family Savers',
+            desc: 'Cheerybug Cheerburger Family Savers has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Cheerburger and Cheery Crispy Fries. Good for three.'
         },
         {
             name: 'Peach Mango Pie 6 Pies-To-Go',
             desc: '6 pieces of Peach Mango Pie'
         },
         {
-            name: 'Cheesy Yumburger Family Savers',
-            desc: 'Jollibee Cheesy Yumburger Family Savers has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Cheesy Yumburger and Jolly Crispy Fries. Good for three.'
+            name: 'Cheesy Cheerburger Family Savers',
+            desc: 'Cheerybug Cheesy Cheerburger Family Savers has all your favorite snacks in one! This includes your favorite beefy langhap-sarap Cheesy Cheerburger and Cheery Crispy Fries. Good for three.'
         },
         {
-            name: '6 - pc. Chickenjoy',
-            desc: 'A bucket of your favorite crispylicious, juicylicious Chickenjoy!',
+            name: '6 - pc. Chickencheer',
+            desc: 'A bucket of your favorite crispylicious, juicylicious Chickencheer!',
         },
         {
-            name: 'Chickenjoy Bucket w/ Rice, Jolly Spaghetti, & Drinks',
-            desc: 'A bucket of the Philippines’ best-tasting crispylicious, juicylicious Chickenjoy with Jolly Spaghetti, rice and drinks.',            
+            name: 'Chickencheer Bucket w/ Rice, Cheery Spaghetti, & Drinks',
+            desc: 'A bucket of the Philippines’ best-tasting crispylicious, juicylicious Chickencheer with Cheery Spaghetti, rice and drinks.',            
         },
         {
             name: 'Family Pan Duo',
-            desc: 'Your meatiest, cheesiest and sweet-sarap Jolly Spaghetti Family Pan paired with the classic favorite Palabok Family Pan'
+            desc: 'Your meatiest, cheesiest and sweet-sarap Cheery Spaghetti Family Pan paired with the classic favorite Palabok Family Pan'
         },
         {
-            name: 'Jolly Spaghetti Family Pan',
-            desc: 'Your favorite meatiest,cheesiest sweet-sarap Jolly Spaghetti good for sharing with the whole family! Good for 4-5 pax.',            
+            name: 'Cheery Spaghetti Family Pan',
+            desc: 'Your favorite meatiest,cheesiest sweet-sarap Cheery Spaghetti good for sharing with the whole family! Good for 4-5 pax.',            
         },
         {
             name: 'Palabok Family Pan',
             desc: 'Your classic favorite saucy-sarap Palabok with tasty toppings for sharing with the whole family! Good for 4-5 pax.'
         },
         {
-            name: 'Joy At Home Birthday Set',
+            name: 'Cheer At Home Birthday Set',
             desc: ''
         }
     ],
@@ -264,64 +264,64 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
             desc: '2 pieces of mildly seasoned longganisa served with garlic rice and fried egg.'
         },
         {
-            name: 'Breakfast Chickenjoy',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside with garlic rice and fried egg.'
+            name: 'Breakfast Chickencheer',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer that is crispy on the outside, tender and juicy on the inside with garlic rice and fried egg.'
         },
         {
             name: 'Bacon, Egg, & Cheese Sandwich',
             desc: 'Crispy bacon, cheese, and fried egg sandwiched between two soft buns.'
         }
     ],
-    "cheeryjoy": [
+    "chickencheer": [
         {
-            name: '8 - pc. Chickenjoy Bucket',
-            desc: 'A bucket of your favorite crispylicious, juicylicious Chickenjoy!'
+            name: '8 - pc. Chickencheer Bucket',
+            desc: 'A bucket of your favorite crispylicious, juicylicious Chickencheer!'
         },
         {
-            name: '6 - pc. Chickenjoy Bucket',
-            desc: 'A bucket of your favorite crispylicious, juicylicious Chickenjoy!'
+            name: '6 - pc. Chickencheer Bucket',
+            desc: 'A bucket of your favorite crispylicious, juicylicious Chickencheer!'
         },
         {
-            name: '4 - pc. Chickenjoy Family Box',
-            desc: 'A box of your favorite crispylicious, juicylicious Chickenjoy that’s perfect for the family!'
+            name: '4 - pc. Chickencheer Family Box',
+            desc: 'A box of your favorite crispylicious, juicylicious Chickencheer that’s perfect for the family!'
         },
         {
-            name: '2 - pc. Chickenjoy Solo',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside.'
+            name: '2 - pc. Chickencheer Solo',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer that is crispy on the outside, tender and juicy on the inside.'
         },
         {
-            name: '1 - pc. Chickenjoy Solo',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside.'
+            name: '1 - pc. Chickencheer Solo',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer that is crispy on the outside, tender and juicy on the inside.'
         },
         {
-            name: '1 - pc. Chickenjoy w/ Jolly Spaghetti',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy paired with the meatiest, cheesiest, sweet-sarap Jolly Spaghetti.'
+            name: '1 - pc. Chickencheer w/ Cheery Spaghetti',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer paired with the meatiest, cheesiest, sweet-sarap Cheery Spaghetti.'
         },
         {
-            name: '1 - pc. Chickenjoy w/ Burger Steak',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside.'
+            name: '1 - pc. Chickencheer w/ Burger Steak',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer that is crispy on the outside, tender and juicy on the inside.'
         },
         {
-            name: '1 - pc. Chickenjoy w/ Palabok',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy paired with your classic favorite saucy-sarap Palabok.'
+            name: '1 - pc. Chickencheer w/ Palabok',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer paired with your classic favorite saucy-sarap Palabok.'
         },
         {
-            name: '1 - pc. Chickenjoy w/ Fries',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy with crispy-sarap fries.'
+            name: '1 - pc. Chickencheer w/ Fries',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer with crispy-sarap fries.'
         }
     ],
     "burgers": [
         {
-            name: 'Yumburger',
-            desc: 'Your favorite beefiest langhap-sarap Yumburger, with beefy patty and our special dressing in between soft buns.'
+            name: 'Cheerburger',
+            desc: 'Your favorite beefiest langhap-sarap Cheerburger, with beefy patty and our special dressing in between soft buns.'
         },
         {
-            name: 'Cheesy Yumburger',
-            desc: 'Your favorite beefiest langhap-sarap Yumburger with creamy cheese.'
+            name: 'Cheesy Cheerburger',
+            desc: 'Your favorite beefiest langhap-sarap Cheerburger with creamy cheese.'
         },
         {
-            name: 'Bacon Cheesy Yumburger',
-            desc: 'Your favorite langhap-sarap Yumburger now made extra special with crispy bacon and creamy cheese.'
+            name: 'Bacon Cheesy Cheerburger',
+            desc: 'Your favorite langhap-sarap Cheerburger now made extra special with crispy bacon and creamy cheese.'
         },
         {
             name: 'Champ Jr.',
@@ -342,28 +342,28 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
     ],
     "cheery-spaghetti": [
         {
-            name: 'Jolly Spaghetti',
-            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Jollibee’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese.'
+            name: 'Cheery Spaghetti',
+            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Cheerybug’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese.'
         },
         {
-            name: 'Jolly Spaghetti Family Pan',
-            desc: 'Your meatiest, cheesiest and sweet-sarap Jolly Spaghetti Family Pan.'
+            name: 'Cheery Spaghetti Family Pan',
+            desc: 'Your meatiest, cheesiest and sweet-sarap Cheery Spaghetti Family Pan.'
         },
         {
-            name: 'Chickenjoy Bucket with Jolly Spaghetti Family Pan',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy with the meatiest, cheesiest, sweet-sarap Jolly Spaghetti!'
+            name: 'Chickencheer Bucket with Cheery Spaghetti Family Pan',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer with the meatiest, cheesiest, sweet-sarap Cheery Spaghetti!'
         },
         {
-            name: 'Jolly Spaghetti w/ Fries & Drink',
-            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Jollibee’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese! Served with drink.'
+            name: 'Cheery Spaghetti w/ Fries & Drink',
+            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Cheerybug’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese! Served with drink.'
         },
         {
-            name: 'Jolly Spaghetti w/ Burger Steak',
-            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Jollibee’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese, paired with our Beefy-Saucy Burger Steak.'
+            name: 'Cheery Spaghetti w/ Burger Steak',
+            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Cheerybug’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese, paired with our Beefy-Saucy Burger Steak.'
         },
         {
-            name: 'Jolly Spaghetti w/ Yumburger',
-            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Jollibee’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese, paired with your favorite langhap-sarap Yumburger with 100% beef patty and special burger dressing.'
+            name: 'Cheery Spaghetti w/ Cheerburger',
+            desc: 'The meatiest, cheesiest and sweet-sarap spaghetti! Freshly prepared noodles topped with Cheerybug’s signature meaty spaghetti sauce, hotdog chunks and creamy grated cheese, paired with your favorite langhap-sarap Cheerburger with 100% beef patty and special burger dressing.'
         }
     ],
     "burger-steak": [
@@ -380,8 +380,8 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
             desc: 'Beef patty with flavorful mushroom gravy, topped with mushroom slices. Served with fries and steamed rice.'
         },
         {
-            name: 'Burger Steak w/ Jolly Spaghetti Family Pan',
-            desc: 'A platter of beef patties with flavorful mushroom gravy topped with mushroom slices. Served with the meatiest, cheesiest and sweet-sarap Jolly Spaghetti Family Pan!'
+            name: 'Burger Steak w/ Cheery Spaghetti Family Pan',
+            desc: 'A platter of beef patties with flavorful mushroom gravy topped with mushroom slices. Served with the meatiest, cheesiest and sweet-sarap Cheery Spaghetti Family Pan!'
         },
         {
             name: '8 - pc. Burger Steak Family Pan',
@@ -394,12 +394,12 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
     ],
     "super-meals": [
         {
-            name: '1 - pc. Chickenjoy w/ Burger Steak & Half Jolly Spaghetti Super Meal',
-            desc: 'Your Jollibee favorites in one Supermeal: 1pc Chickenjoy with Burger Steak and Half Jolly Spaghetti, with rice and drink.'
+            name: '1 - pc. Chickencheer w/ Burger Steak & Half Cheery Spaghetti Super Meal',
+            desc: 'Your Cheerybug favorites in one Supermeal: 1pc Chickencheer with Burger Steak and Half Cheery Spaghetti, with rice and drink.'
         },
         {
-            name: 'Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal​',
-            desc: 'Your Jollibee favorites in one Supermeal: Yumbuerger with Half Jolly Spaghetti, with fries and drink.'
+            name: 'Cheerburger, Half Cheery Spaghetti & Reg. Fries Super Meal​',
+            desc: 'Your Cheerybug favorites in one Supermeal: Yumbuerger with Half Cheery Spaghetti, with fries and drink.'
         }
     ],
     "chicken-sandwich": [
@@ -422,7 +422,7 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
     ],
     "cheery-hotdog-and-pies": [
         {
-            name: 'Cheesy Classic Jolly Hotdog',
+            name: 'Cheesy Classic Cheery Hotdog',
             desc: 'Meaty sausage in a soft hotdog bun, topped with a generous serving of tangy special dressing, grated cheese and tomato catsup, with fries and drink.'
         },
         {
@@ -445,19 +445,19 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
     "palabok": [
         {
             name: 'Palabok Solo',
-            desc: 'A classic favorite-premium bihon noodles topped with Jollibee’s saucy-tasty signature sauce and loaded with delicious toppings!'
+            desc: 'A classic favorite-premium bihon noodles topped with Cheerybug’s saucy-tasty signature sauce and loaded with delicious toppings!'
         },
         {
-            name: '1 - pc. Chickenjoy w/ Palabok',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy paired with your classic favorite Palabok; saucy-tasty, loaded with toppings!'
+            name: '1 - pc. Chickencheer w/ Palabok',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer paired with your classic favorite Palabok; saucy-tasty, loaded with toppings!'
         },
         {
             name: 'Palabok Family Pan',
             desc: 'Your classic favorite Palabok, saucy-tasty, loaded with toppings, for sharing with the whole family! Good for 4-5 pax.'
         },
         {
-            name: 'Chickenjoy Bucket w/ Palabok Family Pan',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy paired with your classic favorite Palabok Family Pan; saucy-tasty, loaded with toppings!'
+            name: 'Chickencheer Bucket w/ Palabok Family Pan',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer paired with your classic favorite Palabok Family Pan; saucy-tasty, loaded with toppings!'
         }
     ],
     "fries-and-sides": [
@@ -467,10 +467,10 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
         },
         {
             name: 'Gravy',
-            desc: 'Chickenjoy Gravy.'
+            desc: 'Chickencheer Gravy.'
         },
         {
-            name: 'Jolly Crispy Fries',
+            name: 'Cheery Crispy Fries',
             desc: 'Crispy-sarap fries in every bite.'
         },
         {
@@ -541,23 +541,23 @@ export const menus : Record<string,{name:string;desc:string}[]> = {
     "cheery-kiddie-meal": [
         {
             name: 'Burger Steak Kiddie Meal',
-            desc: '100% pure beef patty with a hearty serving of flavorful mushroom gravy and steamed rice with Jolly Kiddie Meal toy and drink.',
+            desc: '100% pure beef patty with a hearty serving of flavorful mushroom gravy and steamed rice with Cheery Kiddie Meal toy and drink.',
         },
         {
-            name: 'Chickenjoy Kiddie Meal',
-            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickenjoy with Jolly Kiddie Meal toy.'
+            name: 'Chickencheer Kiddie Meal',
+            desc: 'Philippines’ best-tasting crispylicious, juicylicious Chickencheer with Cheery Kiddie Meal toy.'
         },
         {
-            name: 'Jolly Spaghetti Kiddie Meal',
-            desc: 'Enjoy your cheesiest, meatiest, and best-tasting spaghetti with Jolly Kiddie Meal toy.'
+            name: 'Cheery Spaghetti Kiddie Meal',
+            desc: 'Enjoy your cheesiest, meatiest, and best-tasting spaghetti with Cheery Kiddie Meal toy.'
         },
         {
-            name: '6 - pc. Chickenjoy Kiddie Meal',
-            desc: "Philippines’ best-tasting crispylicious, juicylicious Chickenjoy with Jolly Kiddie Meal toy."
+            name: '6 - pc. Chickencheer Kiddie Meal',
+            desc: "Philippines’ best-tasting crispylicious, juicylicious Chickencheer with Cheery Kiddie Meal toy."
         },
         {
-            name: 'Yumburger Kiddie Meal',
-            desc: 'Your favorite langhap-sarap Yumburger with Jolly Kiddie Meal toy.'
+            name: 'Cheerburger Kiddie Meal',
+            desc: 'Your favorite langhap-sarap Cheerburger with Cheery Kiddie Meal toy.'
         }
     ]
 }

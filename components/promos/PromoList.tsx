@@ -8,7 +8,7 @@ export default function PromoList() {
             <div className="pb-12 flex flex-col items-center gap-4">
                 <h2 className="font-bold text-center text-4xl text-primaryRed">CheeryBug Promo</h2>
                 <p className="text-lg text-center">
-                    Get more JOY with these exciting promos! Take advantage of these exclusive and limited time only offers and deals to get big discounts and freebies!
+                    Get more CHEER with these exciting promos! Take advantage of these exclusive and limited time only offers and deals to get big discounts and freebies!
                 </p>
             </div>
             <div className="w-full flex flex-row flex-wrap justify-center items-center gap-12">

@@ -12,8 +12,8 @@ const menuSamples = [
         description: "The meatiest, cheesiest, and sweet-sarap Cheery Spaghetti!"
     },
     {
-        id: 'yumburger',
-        item: 'Yumburger',
+        id: 'cheerburger',
+        item: 'Cheerburger',
         description: "Your favorite 100% Beefy Langhap-Sarap Burgers."
     }
 ]

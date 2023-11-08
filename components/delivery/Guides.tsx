@@ -54,7 +54,7 @@ export default function Guides() {
                             <div className='font-semibold'>
                                 <p>CheeryBug Group</p>
                                 <p>Multi-Delivery</p>
-                                <p className='font-normal text-[10px] bg-yellow-300 rounded-md px-1'>Send the joy of eating to many</p>
+                                <p className='font-normal text-[10px] bg-yellow-300 rounded-md px-1'>Send the cheer of eating to many</p>
                             </div>
                         </div>
                     </div>

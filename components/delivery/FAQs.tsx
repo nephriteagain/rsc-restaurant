@@ -6,9 +6,9 @@ const q = [
         question: `How do I order thru CheeryBug delivery?`,
         answer: `You may order thru the following ways:
 
-        Order thru the Jollibee mobile app
-        #87000 Hotline delivery accepts cash and credit card payments.
-        Visit the JollibeeDelivery.com website`
+        Order thru the Cheerybug mobile app
+        #97000 Hotline delivery accepts cash and credit card payments.
+        Visit the CheerybugDelivery.com website`
     },
     {
         id: 1,
@@ -17,7 +17,7 @@ const q = [
     },
     {
         id: 2,
-        question: 'How much is the delivery fee of Jollibee Delivery?',
+        question: 'How much is the delivery fee of Cheerybug Delivery?',
         answer: 'The Delivery Fee is 10% on top of the product Dine-in SRP.'
     },
     {
@@ -33,13 +33,13 @@ const q = [
     {
         id: 5,
         question: 'What are the payment options available for delivery?',
-        answer: `Jollibeedelivery.com or the Jollibee Mobile App accepts debit, credit card payments through Pesopay and cashless payments thru GCash and Paymaya on orders.
-        #87000 Hotline delivery accepts cash and credit card payments.`
+        answer: `Cheerybugdelivery.com or the Cheerybug Mobile App accepts debit, credit card payments through Pesopay and cashless payments thru GCash and Paymaya on orders.
+        #97000 Hotline delivery accepts cash and credit card payments.`
     },
     {
         id: 6,
         question: 'Do you honor senior citizen / PWD discounts?',
-        answer: 'Senior citizen and PWD discounts are honored thru Jollibee Delivery, as long as senior citizen / PWD ID is presented upon delivery.'
+        answer: 'Senior citizen and PWD discounts are honored thru Cheerybug Delivery, as long as senior citizen / PWD ID is presented upon delivery.'
     }
 ]
 

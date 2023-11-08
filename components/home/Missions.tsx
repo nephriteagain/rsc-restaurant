@@ -4,7 +4,7 @@ const missions = [
     {
         id: 0,
         header: 'What We Do',
-        text: "CheeryBug's Mission is to serve great-tasting food, bringing the joy of eating to everyone."
+        text: "CheeryBug's Mission is to serve great-tasting food, bringing the cheer of eating to everyone."
     },
     {
         id:1,
