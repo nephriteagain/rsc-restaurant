@@ -23,7 +23,7 @@ export default function FeaturedMenu() {
     return (
         <div className="w-full py-8 px-4 flex flex-col gap-8 items-center bg-secondaryLight">
             <p className="text-xl font-semibold">Featured Menu Items</p>
-            <div className="flex flex-row gap-6 flex-wrap">
+            <div className="flex flex-row gap-6 flex-wrap justify-center">
                 {menuSamples.map(m => {
                     const {id, item, description} = m
                     return (
