@@ -7,7 +7,7 @@ import { useState } from "react"
 
 import AllergenTable from "./AllergenTable"
 
-export default function ({id}: {id:string}) {
+export default function AllergenInfo ({id}: {id:string}) {
     const [ isOpen, setIsOpen ] = useState(false)
 
     return (
