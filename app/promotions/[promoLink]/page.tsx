@@ -6,6 +6,7 @@ import Store from "@/components/promos/Store";
 import Question from "@/components/common/Question";
 
 export default function Promotion({params}: {params: {promoLink:string;}}) {
+    
     const { promoLink } = params
 
     const promo = promos.find(p => p.link === promoLink)
