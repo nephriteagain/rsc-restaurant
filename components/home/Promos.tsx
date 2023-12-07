@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const promos = [
     {
-        id: 'jollibee-chickenjoy-christmas-perfect-pairs',
+        id: 'cheerybug-cheeryjoy-christmas-perfect-pairs',
     },
     {
         id: 'november-choose-your-welcome-gift'

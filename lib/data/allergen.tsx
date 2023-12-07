@@ -14,28 +14,28 @@ type allergen = Record<string,records[]>
 export const allergen : allergen = {
     'best-sellers': [
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }                
         },
         {
-            name: 'Spicy Chickenjoy',
+            name: 'Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'New Spicy Chickenjoy',
+            name: 'New Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
@@ -70,7 +70,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'ChickenJoy Gravy',
+            name: 'Cheeryjoy Gravy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Crustaceans', 'Fish', 'Eggs', 'Tree Nuts', 'Sesame Seeds']
@@ -116,28 +116,28 @@ export const allergen : allergen = {
     ],
     "family-meals": [
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
             }
         },
         {
-            name: 'Spicy Chickenjoy',
+            name: 'Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
             }
         },
         {
-            name: 'New Spicy Chickenjoy',
+            name: 'New Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
@@ -244,7 +244,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Breakfast Jolly Hotdog',
+            name: 'Breakfast Cheery Hotdog',
             contains: {
                 yes: ['Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: []
@@ -258,28 +258,28 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: []
             }
         },
         {
-            name: 'Spicy Chickenjoy',
+            name: 'Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: []
             }
         },
         {
-            name: 'New Spicy Chickenjoy',
+            name: 'New Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: []
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: []
@@ -288,28 +288,28 @@ export const allergen : allergen = {
     ],
     "cheeryjoy": [
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
             }
         },
         {
-            name: 'Spicy Chickenjoy',
+            name: 'Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
             }
         },
         {
-            name: 'New Spicy Chickenjoy',
+            name: 'New Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
@@ -351,7 +351,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Jolly Crispy Fries',
+            name: 'Cheery Crispy Fries',
             contains: {
                 yes: ['Soya'],
                 maybe: ['Peanuts', 'Eggs',	'Tree Nuts',	'Milk', 'Cereals Containing Gluten',	'Sulphites',	'Sesame Seeds']
@@ -365,7 +365,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'ChickenJoy Gravy',
+            name: 'Cheeryjoy Gravy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Crustaceans', 'Fish', 'Eggs', 'Tree Nuts', 'Sesame Seeds']
@@ -417,7 +417,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Jolly Crispy Fries',
+            name: 'Cheery Crispy Fries',
             contains: {
                 yes: ['Soya'],
                 maybe: ['Peanuts', 'Eggs',	'Tree Nuts',	'Milk', 'Cereals Containing Gluten',	'Sulphites',	'Sesame Seeds']
@@ -426,14 +426,14 @@ export const allergen : allergen = {
     ],
     "cheery-spaghetti": [
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
             }
         },
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
@@ -447,7 +447,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Jolly Crispy Fries',
+            name: 'Cheery Crispy Fries',
             contains: {
                 yes: ['Soya'],
                 maybe: ['Peanuts', 'Eggs',	'Tree Nuts',	'Milk', 'Cereals Containing Gluten',	'Sulphites',	'Sesame Seeds']
@@ -470,7 +470,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
@@ -493,28 +493,28 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }                
         },
         {
-            name: 'Spicy Chickenjoy',
+            name: 'Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'New Spicy Chickenjoy',
+            name: 'New Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
@@ -535,14 +535,14 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Jolly Crispy Fries',
+            name: 'Cheery Crispy Fries',
             contains: {
                 yes: ['Soya'],
                 maybe: ['Peanuts', 'Eggs',	'Tree Nuts',	'Milk', 'Cereals Containing Gluten',	'Sulphites',	'Sesame Seeds']
             }
         },
         {
-            name: 'ChickenJoy Gravy',
+            name: 'Cheeryjoy Gravy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Crustaceans', 'Fish', 'Eggs', 'Tree Nuts', 'Sesame Seeds']
@@ -558,7 +558,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'Jolly Crispy Fries',
+            name: 'Cheery Crispy Fries',
             contains: {
                 yes: ['Soya'],
                 maybe: ['Peanuts', 'Eggs',	'Tree Nuts',	'Milk', 'Cereals Containing Gluten',	'Sulphites',	'Sesame Seeds']
@@ -567,14 +567,14 @@ export const allergen : allergen = {
     ],
     "cheery-hotdog-and-pies": [
         {
-            name: 'Regular Jolly Hotdog',
+            name: 'Regular Cheery Hotdog',
             contains: {
                 yes: ['Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts',	'Milk', 'Sesame Seeds'],
             }
         },
         {
-            name: 'Cheesy Jolly Hotdog',
+            name: 'Cheesy Cheery Hotdog',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
@@ -604,28 +604,28 @@ export const allergen : allergen = {
             }
         },   
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }                
         },
         {
-            name: 'Spicy Chickenjoy',
+            name: 'Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'New Spicy Chickenjoy',
+            name: 'New Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk',	'Soya',	'Cereals Containing Gluten',	'Sulphites'],
                 maybe: ['Peanuts',	'Crustaceans',	'Fish',	'Eggs',	'Tree Nuts', 'Sesame Seeds']
@@ -634,7 +634,7 @@ export const allergen : allergen = {
     ],
     "fries-and-sides": [
         {
-            name: 'Jolly Crispy Fries',
+            name: 'Cheery Crispy Fries',
             contains: {
                 yes: ['Soya'],
                 maybe: ['Peanuts', 'Eggs',	'Tree Nuts',	'Milk', 'Cereals Containing Gluten',	'Sulphites',	'Sesame Seeds']
@@ -655,7 +655,7 @@ export const allergen : allergen = {
             }
         },
         {
-            name: 'ChickenJoy Gravy',
+            name: 'Cheeryjoy Gravy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Crustaceans', 'Fish', 'Eggs', 'Tree Nuts', 'Sesame Seeds']
@@ -780,28 +780,28 @@ export const allergen : allergen = {
             }
         },       
         {
-            name: 'Chickenjoy',
+            name: 'Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }                
         },
         {
-            name: 'Spicy Chickenjoy',
+            name: 'Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'New Spicy Chickenjoy',
+            name: 'New Spicy Cheeryjoy',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
             }
         },
         {
-            name: 'Jolly Spaghetti',
+            name: 'Cheery Spaghetti',
             contains: {
                 yes: ['Milk', 'Soya', 'Cereals Containing Gluten', 'Sulphites'],
                 maybe: ['Peanuts', 'Crustaceans', 'Fish', 'Eggs', 'Tree Nuts','Sesame Seeds']
